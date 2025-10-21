@@ -65,7 +65,7 @@ RUN apt update && apt install -y \
 
 WORKDIR /app
 
-# Install Rust system-wide
+## Install Rust system-wide
 ENV RUSTUP_HOME=/usr/local/rustup \
     CARGO_HOME=/usr/local/cargo \
     PATH=/usr/local/cargo/bin:$PATH
